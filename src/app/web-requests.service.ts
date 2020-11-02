@@ -8,7 +8,7 @@ export class WebRequestsService {
   readonly ROOT_URL;
 
   constructor(private http: HttpClient) {
-    this.ROOT_URL = 'http://localhost:3000';
+    this.ROOT_URL = 'https://task-manager-tom.herokuapp.com/';
   }
 
   get(uri: string) {
